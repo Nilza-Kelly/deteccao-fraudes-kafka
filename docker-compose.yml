@@ -26,7 +26,7 @@ services:
     image: postgres:16
     container_name: fraude-postgres
     ports:
-      - "5432:5432"
+      - "5433:5432"
     environment:
       POSTGRES_DB: fraudes_db
       POSTGRES_USER: fraude_user

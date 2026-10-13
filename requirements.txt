@@ -1,2 +1,4 @@
 
 kafka-python==2.2.15
+psycopg[binary]
+rich
